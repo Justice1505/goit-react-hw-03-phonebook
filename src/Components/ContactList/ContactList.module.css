@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 5px;
+  color: black;
+  background: white;
+  font-weight: 700;
+  border: #000000 solid 1px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000;
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 4px 4px 9px red;
+  color: white;
+  background: red;
+  border: tomato solid 1px;
+}
+.item {
+  margin-bottom: 10px;
+}
+.span {
+  margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: #000000 solid 1px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000;
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 4px 4px 9px green;
+  color: white;
+  background: yellowgreen;
+  border: green solid 1px;
+}
